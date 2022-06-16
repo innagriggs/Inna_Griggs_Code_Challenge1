@@ -17,6 +17,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class SortStepDef {
+
     WebDriver driver;
     ProductsPage productsPage = new ProductsPage();
     Select dropDown = new Select(productsPage.sortDropdown);
